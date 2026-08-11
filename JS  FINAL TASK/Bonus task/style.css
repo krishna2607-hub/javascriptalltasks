@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.api {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    width: 280px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px gray;
+}
+
+.card h2 {
+    font-size: 18px;
+}
+
+.card img {
+    width: 180px;
+    height: 180px;
+    object-fit: contain;
+    display: block;
+    margin: auto;
+}
+
+.card p {
+    line-height: 1.5;
+}
